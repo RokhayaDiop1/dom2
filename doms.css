@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+}
+.content{
+    display: flex;
+    position: relative;
+    background-color: rgb(245, 244, 243);
+    height: 100px;
+    justify-content: space-around;
+}
+.list{
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0;
+   
+}
+.logo{
+    margin: 35px;
+    margin-left: 30px;
+    color: 
+    rgba(201, 31, 23, 0.959);
+    letter-spacing: 2px;
+}
+
+.list ul li {
+    display: inline-block;
+    padding: 20px;
+    align-items: center;
+   
+}
+
+.list ul li a{
+    text-decoration: none;
+    font-size: large;
+    letter-spacing: 2px;
+    color: black;
+    letter-spacing:3px;
+
+}
+
+a:hover{
+    color: rgb(190, 121, 30);
+}
+
+.contener h1{
+    
+    justify-content: center;
+    align-items: center;
+    margin: 45px;
+    margin-left:40%;
+    color: rgba(201, 31, 23, 0.959);
+    letter-spacing: 2px;
+    
+}
+
+.contener{
+    height: 130vh;
+}
+span {
+    color: black;
+}
+
+.produit{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%
+}
+
+.produit h3{
+    position: relative;
+    left: 90px;
+    bottom: 10px;
+}
+
+button{
+    background-color: rgb(98, 89, 89);
+    color: white;
+}
+
+
+.produit .sup{
+    padding: 5px;
+    border-radius: 10px;
+    position: relative;
+    top: 5px;
+
+}
+
+.produit .plus, .moin{
+    padding: 3px;
+    border-radius: 6px;
+}
+
+
+.produit .top {
+    
+}
+
+footer{
+    background-color: rgb(140, 139, 138);
+    height: 100px;
+}
+
+
+.liked{
+    color: red;
+    outline-style: hidden;
+}
+.propos{
+   position: relative;
+   left: 500px;
+   height: 40vh;
+   font-size: large;
+
+
+}
+.propos h2{
+    margin: 20px 115px;
+    
+}
+
+.foot{
+    text-align: center;
+    padding-top: 30px;
+}
+
+
